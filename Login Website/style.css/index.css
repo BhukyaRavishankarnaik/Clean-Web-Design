@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* ================= NAVBAR ================= */
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    gap: 20px;
+    color: white;
+}
+
+/* Logo */
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("../img/image1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+/* Address */
+.nav-address {
+    cursor: pointer;
+}
+
+.nav-address p:first-child {
+    font-size: 12px;
+    color: #cccccc;
+}
+
+.Add-icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.Add-icon p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Hover */
+.nav-address:hover,
+.nav-signin:hover,
+.nav-return:hover,
+.nav-cart:hover {
+    border: 1px solid white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* ================= SEARCH ================= */
+.nav-search {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 40px;
+    width: 500px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    border: none;
+    height: 100%;
+    padding: 5px;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+}
+
+.search-icon {
+    background-color: #febd69;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+/* ================= SIGNIN / RETURN ================= */
+.nav-signin span,
+.nav-return span {
+    font-size: 12px;
+}
+
+.nav-second {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* ================= CART ================= */
+.nav-cart {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+}
+
+.nav-cart i {
+    font-size: 20px;
+}
+
+/* ================= PANEL ================= */
+.panel {
+    height: 40px;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    color: white;
+}
+
+.panel-ops {
+    display: flex;
+    gap: 15px;
+}
+
+.panel-ops p {
+    cursor: pointer;
+}
+
+.panel-deals {
+    font-weight: bold;
+}
+
+/* ================= HERO ================= */
+.hero-section {
+    background-image: url("../img/image2.png");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.hero-msg {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin-bottom: 25px;
+    font-size: 0.85rem;
+    width: 80%;
+    text-align: center;
+}
+
+.hero-msg a {
+    color: #007185;
+}
+
+/* ================= SHOP ================= */
+.shop-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: #e2e7e6;
+}
+
+/* Box */
+.box {
+    background-color: white;
+    padding: 15px;
+}
+
+.box-img {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin: 10px 0;
+}
+
+.box-content p {
+    color: #007185;
+    cursor: pointer;
+}
+/* ================= FOOTER ================= */
+
+/* Back to top */
+.foot-panel1 {
+    background-color: #37475a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+}
+
+/* Main footer links */
+.foot-panel2 {
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0;
+}
+
+.foot-panel2 ul {
+    list-style: none;
+}
+
+.foot-panel2 p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.foot-panel2 a {
+    display: block;
+    font-size: 14px;
+    margin: 5px 0;
+    color: #dddddd;
+    cursor: pointer;
+}
+
+/* Logo + language */
+.foot-panel3 {
+    background-color: #232f3e;
+    border-top: 0.5px solid #ddd;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+}
+
+/* Bottom section */
+.foot-panel4 {
+    background-color: #131a22;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.pages a {
+    margin: 0 10px;
+    font-size: 12px;
+}
+
+.copyright {
+    font-size: 12px;
+    margin-top: 5px;
+}
