@@ -1,200 +1,145 @@
+<!-- Final Clean index.html -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clean Web Design</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<title>ShopNow</title>
 
-    <link rel="stylesheet" href="style.css/index.css">
+<link rel="stylesheet" href="style.css/index.css">
+
+<!-- Font Awesome -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
 <body>
 
+<!-- ================= HEADER ================= -->
 <header>
 
-    <!-- NAVBAR -->
-    <div class="navbar">
+<!-- NAVBAR -->
+<div class="navbar">
 
-        <div class="nav-logo">
-            <div class="logo"></div>
+    <!-- LOGO -->
+    <div class="nav-logo">
+        <div class="logo">ShopNow</div>
+    </div>
+
+    <!-- ADDRESS -->
+    <div class="nav-address">
+        <p>Deliver To</p>
+        <div class="Add-icon">
+            <i class="fa-solid fa-location-dot"></i>
+            <p>India</p>
         </div>
+    </div>
 
-        <div class="nav-address">
-            <p>Deliver To</p>
-            <div class="Add-icon">
-                <i class="fa-solid fa-location-dot"></i>
-                <p>India</p>
-            </div>
-        </div>
+    <!-- SEARCH -->
+    <div class="nav-search">
 
-        <div class="nav-search">
-            <select class="search-select">
-                <option>All</option>
-            </select>
+        <select class="search-select">
+            <option>All</option>
+            <option>Mobiles</option>
+            <option>Electronics</option>
+            <option>Fashion</option>
+        </select>
 
-            <input class="search-input" placeholder="Search Amazon">
+        <input
+        type="text"
+        class="search-input"
+        placeholder="Search products...">
 
-            <div class="search-icon">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
-        </div>
-
-        <div class="nav-signin">
-            <p><span>Hello, sign in</span></p>
-            <p class="nav-second">Account & Lists</p>
-        </div>
-
-        <div class="nav-return">
-            <p><span>Returns</span></p>
-            <p class="nav-second">& Orders</p>
-        </div>
-
-        <div class="nav-cart">
-            <i class="fa-solid fa-cart-shopping"></i>
-            Cart
+        <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
         </div>
 
     </div>
 
-    <!-- PANEL -->
-    <div class="panel">
-        <div class="panel-ops">
-            <p>Today's Deals</p>
-            <p>Customer Service</p>
-            <p>Register</p>
-            <p>Gift Cards</p>
-            <p>Sell</p>
-        </div>
-
-        <div class="panel-deals">
-            Shop deals in Electronics
-        </div>
+    <!-- SIGN IN -->
+    <div class="nav-signin">
+        <p><span>Hello, Sign in</span></p>
+        <p class="nav-second">Account</p>
     </div>
+
+    <!-- ORDERS -->
+    <div class="nav-return">
+        <p><span>Returns</span></p>
+        <p class="nav-second">& Orders</p>
+    </div>
+
+    <!-- CART -->
+    <div class="nav-cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span id="cartCount">0</span>
+    </div>
+
+</div>
+
+<!-- PANEL -->
+<div class="panel">
+
+    <div class="panel-ops">
+        <p>Today's Deals</p>
+        <p>Customer Service</p>
+        <p>Gift Cards</p>
+        <p>Sell</p>
+    </div>
+
+    <div class="panel-deals">
+        Best Deals Today
+    </div>
+
+</div>
 
 </header>
 
-<!-- HERO SECTION -->
-<div class="hero-section">
+<!-- ================= HERO ================= -->
+<section class="hero-section">
+
     <div class="hero-msg">
-        <p>
-            Need help with your Echo? Visit our 
-            <a href="#">Help pages</a> or ask experts on our 
-            <a href="#">community forum</a>.
-        </p>
-    </div>
-</div>
-
-<!-- SHOP SECTION -->
-<div class="shop-section">
-
-    <!-- BOX 1 -->
-    <div class="box">
-        <div class="box-content">
-            <h2>Health & Personal Care</h2>
-            <div class="box-img" style="background-image: url('img/image.png');"></div>
-            <p>See more</p>
-        </div>
+        <h1>Big Summer Sale</h1>
+        <p>Up to 70% Off on Electronics</p>
     </div>
 
-    <!-- BOX 2 -->
-    <div class="box">
-        <div class="box-content">
-            <h2>Mobiles</h2>
-            <div class="box-img" style="background-image: url('img/image3.png');"></div>
-            <p>See more</p>
-        </div>
-    </div>
+</section>
 
-    <!-- BOX 3 -->
-    <div class="box">
-        <div class="box-content">
-            <h2>Cables</h2>
-            <div class="box-img" style="background-image: url('img/image4.png');"></div>
-            <p>See more</p>
-        </div>
-    </div>
+<!-- ================= PRODUCTS ================= -->
+<section
+class="shop-section"
+id="productContainer">
 
-    <!-- BOX 4 -->
-    <div class="box">
-        <div class="box-content">
-            <h2>Electronics</h2>
-            <div class="box-img" style="background-image: url('img/image5.png');"></div>
-            <p>See more</p>
-        </div>
-    </div>
+<!-- JS Dynamic Products Here -->
 
-</div>
+</section>
 
+<!-- ================= FOOTER ================= -->
 <footer>
 
-    <!-- Back to Top -->
-    <div class="foot-panel1">
-        Back to top
+<div class="foot-panel1">
+    Back to top
+</div>
+
+<div class="foot-panel4">
+
+    <div class="pages">
+        <a href="#">Conditions</a>
+        <a href="#">Privacy</a>
+        <a href="#">Help</a>
     </div>
 
-    <!-- Links Section -->
-    <div class="foot-panel2">
-
-        <ul>
-            <p>Get to Know Us</p>
-            <a>About Amazon</a>
-            <a>Careers</a>
-            <a>Press Releases</a>
-            <a>Amazon Science</a>
-        </ul>
-
-        <ul>
-            <p>Connect with Us</p>
-            <a>Facebook</a>
-            <a>Twitter</a>
-            <a>Instagram</a>
-        </ul>
-
-        <ul>
-            <p>Make Money with Us</p>
-            <a>Sell on Amazon</a>
-            <a>Sell under Amazon Accelerator</a>
-            <a>Protect and Build Your Brand</a>
-            <a>Amazon Global Selling</a>
-            <a>Supply to Amazon</a>
-            <a>Become an Affiliate</a>
-            <a>Fulfilment by Amazon</a>
-            <a>Advertise Your Products</a>
-            <a>Amazon Pay on Merchants</a>
-        </ul>
-
-        <ul>
-            <p>Let Us Help You</p>
-            <a>Your Account</a>
-            <a>Returns Centre</a>
-            <a>Recalls and Product Safety Alerts</a>
-            <a>100% Purchase Protection</a>
-            <a>Amazon App Download</a>
-            <a>Help</a>
-        </ul>
-
+    <div class="copyright">
+        © 2026 ShopNow. All Rights Reserved.
     </div>
 
-    <!-- Language & Country -->
-    <div class="foot-panel3">
-        <div class="logo"></div>
-        <p>English | India</p>
-    </div>
-
-    <!-- Bottom Services -->
-    <div class="foot-panel4">
-        <div class="pages">
-            <a>Conditions of Use & Sale</a>
-            <a>Privacy Notice</a>
-            <a>Interest-Based Ads</a>
-        </div>
-        <div class="copyright">
-            © 1996-2026, Amazon.com, Inc. or its affiliates
-        </div>
-    </div>
+</div>
 
 </footer>
+
+<!-- JS -->
+<script src="index.js"></script>
+
 </body>
 </html>
